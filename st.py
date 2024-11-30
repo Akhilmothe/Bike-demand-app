@@ -49,7 +49,6 @@ if predict_button:
 
 
     # Display the result
-    st.subheader('Predicted Bike Demand:')
-    st.write(f'Predicted Total Demand: {predicted_demand[0]:.2f}')
+    st.write(f'Predicted Bike Demand: {predicted_demand[0]:.2f}')
     
  
